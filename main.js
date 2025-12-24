@@ -12,6 +12,7 @@ import { loadCeilingLampModel } from "./modules/ceilingLamp.js";
 import { loadTableChairModel } from "./modules/tableChair.js";
 import { loadDoorModel } from "./modules/doors.js";
 import { loadWallLightModel } from "./modules/wallLight.js";
+import { loadCurtainModel } from "./modules/curtain.js";
 
 let { camera, controls, renderer } = setupScene();
 
@@ -37,3 +38,5 @@ loadTableChairModel(scene);
 loadDoorModel(scene);
 
 loadWallLightModel(scene);
+
+loadCurtainModel(scene);
